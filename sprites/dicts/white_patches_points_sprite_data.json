@@ -2,11 +2,11 @@
     "spritesheet": "patches_points",
     "sprite_list": [
         [
-            "COLOURPOINT",
-            "RAGDOLL",
-            "SEPIAPOINT",
-            "MINKPOINT",
-            "SEALPOINT"
+            "ROAN",
+            "DILUTE",
+            "POINTS",
+            "CANON",
+            "CAPE"
         ]
     ]
 }

@@ -2,14 +2,11 @@
     "spritesheet": "patches_vitiligo",
     "sprite_list": [
         [
-            "MOON",
-            "PHANTOM",
-            "POWDER",
-            "BLEACHED",
-            "VITILIGO",
-            "VITILIGOTWO",
-            "KARPATI",
-            "SMOKEY"
+            "MOONSPOT",
+            "FROST",
+            "LACE",
+            "STARDUST",
+            "FAWNSPOT"
         ]
     ]
 }
