@@ -809,6 +809,48 @@ class ProfileScreen(Screens):
             )
             # NEWLINE ----------
 
+        # ACCESSORY
+        if the_cat.pelt.accessory:
+            cats_accs = list(deepcopy(the_cat.pelt.accessory))
+            acc_list = []
+            if sprites.COLLAR_DATA["palette_map"]:
+                for acc in the_cat.pelt.accessory:
+                    potential_collar = "".join(
+                        [x for x in acc if not x.islower()]
+                    ).strip("_")
+                    for style in Pelt.collar_styles:
+                        if style == potential_collar:
+                            acc_list.append(
+                                i18n.t(f"cat.accessories.{potential_collar}", count=0)
+                            )
+                            cats_accs.remove(acc)
+                            break
+                    if acc_list:
+                        break
+
+            acc_list.extend(
+                [i18n.t(f"cat.accessories.{acc}", count=0) for acc in cats_accs]
+            )
+            output += "\n"
+            output += i18n.t(
+                "screens.profile.accessory_label",
+                accessory=adjust_list_text(acc_list),
+            )
+            # NEWLINE ----------
+
+        # CLOTHING
+        output += "\n"
+        output += i18n.t(
+            "screens.profile.clothing_label",
+            clothing1=i18n.t(f"cat.accessories.{the_cat.pelt.clothing1}", count=0),
+        )
+        if the_cat.pelt.clothing2:
+            output += " "
+            output += i18n.t(
+                "screens.profile.clothing2_label",
+                clothing2=i18n.t(f"cat.accessories.{the_cat.pelt.clothing2}", count=0),
+            )
+
         # PARENTS
         all_parents = [Cat.fetch_cat(i) for i in the_cat.get_parents()]
         if all_parents:

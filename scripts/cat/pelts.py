@@ -208,6 +208,8 @@ class Pelt:
         vitiligo: str = None,
         points: str = None,
         accessory: list = None,
+        clothing1: str = None,
+        clothing2: str = None,
         paralyzed: bool = False,
         opacity: int = 100,
         scars: list = None,
@@ -236,6 +238,8 @@ class Pelt:
         self.points = points
         self.rebuild_sprite = True
         self._accessory = accessory
+        self._clothing1 = clothing1
+        self._clothing2 = clothing2
         self._paralyzed = paralyzed
         self.opacity = opacity
         self._scars = (
@@ -405,6 +409,24 @@ class Pelt:
         self._accessory = val
 
     @property
+    def clothing1(self):
+        return self._clothing1
+
+    @clothing1.setter
+    def clothing1(self, val):
+        self.rebuild_sprite = True
+        self._clothing1 = val
+
+    @property
+    def clothing2(self):
+        return self._clothing2
+
+    @clothing2.setter
+    def clothing2(self, val):
+        self.rebuild_sprite = True
+        self._clothing2 = val
+
+    @property
     def scars(self):
         return self._scars
 
@@ -431,6 +453,8 @@ class Pelt:
         new_pelt.init_sprite()
         new_pelt.init_scars(age)
         new_pelt.init_accessories(age)
+        new_pelt.init_clothing1()
+        new_pelt.init_clothing2()
         new_pelt.init_eyes(parents)
         new_pelt.init_pattern()
         new_pelt.init_tint()
@@ -922,6 +946,12 @@ class Pelt:
             )
         else:
             self.accessory = tuple()
+
+    def init_clothing1(self):
+        self.clothing1 = choice(Pelt.plant_accessories)
+
+    def init_clothing2(self):
+        self.clothing2 = choice(Pelt.collar_accessories)
 
     def init_pattern(self):
         if self.name in Pelt.torties:

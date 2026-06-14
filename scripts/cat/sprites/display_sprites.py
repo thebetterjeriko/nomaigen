@@ -19,6 +19,7 @@ def generate_sprite(
     life_state=None,
     scars_hidden=False,
     acc_hidden=False,
+    cloth_hidden=False,
     always_living=False,
     disable_sick_sprite=False,
 ) -> pygame.Surface:
@@ -317,6 +318,31 @@ def generate_sprite(
         # draw accessories
         from scripts.cat.pelts import Pelt
 
+        if not cloth_hidden and cat.pelt.clothing1:
+            clothing1 = cat.pelt.clothing1
+            if clothing1 in cat.pelt.plant_accessories:
+                sprite_name = f"{sprites.PLANT_DATA['spritesheet']}{clothing1}{cat_sprite}"
+                new_sprite.blit(
+                    _recolor_lineart(
+                        sprites.sprites[sprite_name],
+                        lineart_color,
+                        gradient_surface,
+                    ),
+                    (0, 0),
+                )
+        if not cloth_hidden and cat.pelt.clothing2:
+            clothing2 = cat.pelt.clothing2
+            if clothing2 in cat.pelt.collar_accessories:
+                sprite_name = f"{sprites.COLLAR_DATA['spritesheet']}{clothing2}{cat_sprite}"
+                new_sprite.blit(
+                    _recolor_lineart(
+                        sprites.sprites[sprite_name],
+                        lineart_color,
+                        gradient_surface,
+                    ),
+                    (0, 0),
+                )
+        #other accs
         if not acc_hidden and cat.pelt.accessory:
             cat_accessories = cat.pelt.accessory
             categories = [

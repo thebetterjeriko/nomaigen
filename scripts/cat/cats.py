@@ -3378,6 +3378,8 @@ class Cat:
                 "skill_dict": self.skills.get_skill_dict(),
                 "scars": self.pelt.scars or [],
                 "accessory": self.pelt.accessory,
+                "clothing1": self.pelt.clothing1,
+                "clothing2": self.pelt.clothing2,
                 "experience": self.experience,
                 "current_apprentice": list(self.apprentice),
                 "former_apprentices": list(self.former_apprentices),
@@ -3523,6 +3525,8 @@ def create_option_preview_cat(scar: str = None, acc: str = None):
             scars=[scar] if scar else [],
             adult_sprite=8,
             accessory=[acc] if acc else [],
+            clothing1=None,
+            clothing2=None,
         ),
     )
     new_cat.age = CatAge.ADULT

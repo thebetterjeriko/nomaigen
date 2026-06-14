@@ -33,6 +33,8 @@
         "pelt_label": "pelt: %{pelt}",
         "fur_label": "fur length: %{length}",
         "accessory_label": "accessory: %{accessory}",
+        "clothing_label": "clothing: %{clothing1}",
+        "clothing2_label": "%{clothing2}",
         "parent_label": {
             "one": "parent: %{parents}",
             "many": "parents: %{parents}"

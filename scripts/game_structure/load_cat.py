@@ -178,6 +178,8 @@ def json_load():
                 tint=cat["tint"] if "tint" in cat else None,
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
+                clothing1=cat["clothing1"],
+                clothing2=cat["clothing2"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,
             )
 
@@ -397,11 +399,11 @@ def csv_load(all_cats):
             # CAT: ID(0) - prefix:suffix(1) - gender(2) - status(3) - age(4) - trait(5) - parent1(6) - parent2(7) - mentor(8)
             # PELT: pelt(9) - colour(10) - white(11) - length(12)
             # SPRITE: kitten(13) - apprentice(14) - warrior(15) - elder(16) - eye colour(17) - reverse(18)
-            # - white patches(19) - pattern(20) - tortiebase(21) - tortiepattern(22) - tortiecolour(23) - skin(24) - skill(25) - NONE(26) - spec(27) - accessory(28) -
-            # spec2(29) - moons(30) - mate(31)
-            # dead(32) - SPRITE:dead(33) - exp(34) - dead for _ moons(35) - current apprentice(36)
-            # (BOOLS, either TRUE OR FALSE) paralyzed(37) - no kits(38) - exiled(39)
-            # genderalign(40) - former apprentices list (41)[FORMER APPS SHOULD ALWAYS BE MOVED TO THE END]
+            # - white patches(19) - pattern(20) - tortiebase(21) - tortiepattern(22) - tortiecolour(23) - skin(24) - skill(25) - NONE(26) - spec(27) - accessory(28) - clothing1 (29) - clothing2 (30)
+            # spec2(31) - moons(32) - mate(33)
+            # dead(34) - SPRITE:dead(35) - exp(36) - dead for _ moons(37) - current apprentice(38)
+            # (BOOLS, either TRUE OR FALSE) paralyzed(39) - no kits(40) - exiled(41)
+            # genderalign(42) - former apprentices list (43)[FORMER APPS SHOULD ALWAYS BE MOVED TO THE END]
             if i.strip() != "":
                 attr = i.split(",")
                 for x in range(len(attr)):
@@ -498,15 +500,19 @@ def csv_load(all_cats):
                 if len(attr) > 28:
                     the_cat.pelt.accessory = (attr[28],)
                 if len(attr) > 29:
-                    the_cat.specialty2 = attr[29]
+                    the_cat.pelt.clothing1 = (attr[29],)
+                if len(attr) > 30:
+                    the_cat.pelt.clothing2 = (attr[30],)
+                if len(attr) > 31:
+                    the_cat.specialty2 = attr[31]
                 else:
                     the_cat.specialty2 = None
                 switch_set_value(
                     Switch.error_message,
                     f"There was an error loading cat # {str(attr[0])} (code: 11)",
                 )
-                if len(attr) > 34:
-                    the_cat.experience = int(attr[34])
+                if len(attr) > 36:
+                    the_cat.experience = int(attr[36])
                     experiencelevels = [
                         "very low",
                         "low",
@@ -527,43 +533,43 @@ def csv_load(all_cats):
                     Switch.error_message,
                     f"There was an error loading cat # {str(attr[0])} (code: 12)",
                 )
-                if len(attr) > 30:
+                if len(attr) > 32:
                     # Attributes that are to be added after the update
-                    the_cat.moons = int(attr[30])
-                    if len(attr) >= 31:
+                    the_cat.moons = int(attr[32])
+                    if len(attr) >= 33:
                         # assigning mate to cat, if any
-                        the_cat.mate = [attr[31]]
-                    if len(attr) >= 32:
+                        the_cat.mate = [attr[33]]
+                    if len(attr) >= 34:
                         # Is the cat dead
                         the_cat.status.send_to_afterlife(target_ID=CatGroup.STARCLAN_ID)
-                        the_cat.pelt.cat_sprites["dead"] = attr[33]
+                        the_cat.pelt.cat_sprites["dead"] = attr[34]
                 switch_set_value(
                     Switch.error_message,
                     f"There was an error loading cat # {str(attr[0])} (code: 13)",
                 )
-                if len(attr) > 35:
-                    the_cat.dead_for = int(attr[35])
+                if len(attr) > 37:
+                    the_cat.dead_for = int(attr[37])
                 switch_set_value(
                     Switch.error_message,
                     f"There was an error loading cat # {str(attr[0])} (code: 14)",
                 )
-                if len(attr) > 36 and attr[36] is not None:
-                    the_cat.apprentice = attr[36].split(";")
+                if len(attr) > 38 and attr[38] is not None:
+                    the_cat.apprentice = attr[38].split(";")
                 switch_set_value(
                     Switch.error_message,
                     f"There was an error loading cat # {str(attr[0])} (code: 15)",
                 )
-                if len(attr) > 37:
-                    the_cat.pelt.paralyzed = bool(attr[37])
-                if len(attr) > 38:
-                    the_cat.no_kits = bool(attr[38])
                 if len(attr) > 39:
-                    if bool(attr[39]):
-                        the_cat.status.exile_from_group()
+                    the_cat.pelt.paralyzed = bool(attr[39])
                 if len(attr) > 40:
-                    the_cat.genderalign = attr[40]
-                if len(attr) > 41 and attr[41] is not None:  # KEEP THIS AT THE END
-                    the_cat.former_apprentices = attr[41].split(";")
+                    the_cat.no_kits = bool(attr[40])
+                if len(attr) > 41:
+                    if bool(attr[41]):
+                        the_cat.status.exile_from_group()
+                if len(attr) > 42:
+                    the_cat.genderalign = attr[42]
+                if len(attr) > 43 and attr[43] is not None:  # KEEP THIS AT THE END
+                    the_cat.former_apprentices = attr[43].split(";")
         switch_set_value(
             Switch.error_message,
             "There was an error loading this clan's mentors, apprentices, relationships, or sprite info.",
