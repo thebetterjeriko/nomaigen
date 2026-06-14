@@ -170,9 +170,9 @@
             "one": "moth wing"
         },
         "CICADA WINGS": {
-            "zero": "cicadas",
-            "many": "cicadas",
-            "one": "cicada"
+            "zero": "cicada wings",
+            "many": "cicada wings",
+            "one": "cicada wing"
         },
         "ORANGE POPPY": {
             "zero": "orange poppy",
@@ -294,70 +294,305 @@
             "many": "road runner feathers",
             "one": "road runner feather"
         },
-        "BOW": {
-            "zero": "bow",
-            "many": "bows",
-            "one": "bow"
+        "CRIMSON_COLLAR": {
+            "zero": "crimson collar",
+            "many": "crimson collars",
+            "one": "crimson collar"
         },
-        "BOW_FOIL": {
-            "zero": "foil bow",
-            "many": "foil bows",
-            "one": "foil bow"
+        "BLUE_COLLAR": {
+            "zero": "blue collar",
+            "many": "blue collars",
+            "one": "blue collar"
         },
-        "BOW_GRADIENT": {
-            "zero": "colorful bow",
-            "many": "colorful bows",
-            "one": "colorful bow"
+        "YELLOW_COLLAR": {
+            "zero": "yellow collar",
+            "many": "yellow collars",
+            "one": "yellow collar"
         },
-        "LEATHER": {
-            "zero": "leather collar",
-            "many": "leather collars",
-            "one": "leather collar"
+        "CYAN_COLLAR": {
+            "zero": "cyan collar",
+            "many": "cyan collars",
+            "one": "cyan collar"
         },
-        "LEATHER_SPIKE": {
-            "zero": "spiked leather collar",
-            "many": "spiked leather collars",
-            "one": "spiked leather collar"
+        "RED_COLLAR": {
+            "zero": "red collar",
+            "many": "red collars",
+            "one": "red collar"
         },
-        "LEATHER_GRADIENT": {
-            "zero": "colorful leather collar",
-            "many": "colorful leather collars",
-            "one": "colorful leather collar"
+        "LIME_COLLAR": {
+            "zero": "lime collar",
+            "many": "lime collars",
+            "one": "lime collar"
         },
-        "LEATHER_BELL": {
-            "zero": "belled leather collar",
-            "many": "belled leather collars",
-            "one": "belled leather collar"
+        "GREEN_COLLAR": {
+            "zero": "green collar",
+            "many": "green collars",
+            "one": "green collar"
         },
-        "LEATHER_BELL_SPIKE": {
-            "zero": "spiked leather collar with bell",
-            "many": "spiked leather collars with bells",
-            "one": "spiked leather collar with bell"
+        "RAINBOW_COLLAR": {
+            "zero": "rainbow collar",
+            "many": "rainbow collars",
+            "one": "rainbow collar"
         },
-        "LEATHER_BELL_GRADIENT": {
-            "zero": "colorful belled leather collar",
-            "many": "colorful belled leather collars",
-            "one": "colorful belled leather collar"
+        "BLACK_COLLAR": {
+            "zero": "black collar",
+            "many": "black collars",
+            "one": "black collar"
         },
-        "NYLON": {
-            "zero": "nylon collar",
-            "many": "nylon collars",
-            "one": "nylon collar"
+        "SPIKE_COLLAR": {
+            "zero": "spike collar",
+            "many": "spike collars",
+            "one": "spike collar"
         },
-        "NYLON_GRADIENT": {
+        "WHITE_COLLAR": {
+            "zero": "white collar",
+            "many": "white collars",
+            "one": "white collar"
+        },
+        "PINK_COLLAR": {
+            "zero": "pink collar",
+            "many": "pink collars",
+            "one": "pink collar"
+        },
+        "PURPLE_COLLAR": {
+            "zero": "purple collar",
+            "many": "purple collars",
+            "one": "purple collar"
+        },
+        "MULTI_COLLAR": {
+            "zero": "colorful collar",
+            "many": "colorful collars",
+            "one": "colorful collar"
+        },
+        "INDIGO_COLLAR": {
+            "zero": "indigo collar",
+            "many": "indigo collars",
+            "one": "indigo collar"
+        },
+        "CRIMSON_BELL": {
+            "zero": "crimson bell collar",
+            "many": "crimson bell collars",
+            "one": "crimson bell collar"
+        },
+        "BLUE_BELL": {
+            "zero": "blue bell collar",
+            "many": "blue bell collars",
+            "one": "blue bell collar"
+        },
+        "YELLOW_BELL": {
+            "zero": "yellow bell collar",
+            "many": "yellow bell collars",
+            "one": "yellow bell collar"
+        },
+        "CYAN_BELL": {
+            "zero": "cyan bell collar",
+            "many": "cyan bell collars",
+            "one": "cyan bell collar"
+        },
+        "RED_BELL": {
+            "zero": "red bell collar",
+            "many": "red bell collars",
+            "one": "red bell collar"
+        },
+        "LIME_BELL": {
+            "zero": "lime bell collar",
+            "many": "lime bell collars",
+            "one": "lime bell collar"
+        },
+        "GREEN_BELL": {
+            "zero": "green bell collar",
+            "many": "green bell collars",
+            "one": "green bell collar"
+        },
+        "RAINBOW_BELL": {
+            "zero": "rainbow bell collar",
+            "many": "rainbow bell collars",
+            "one": "rainbow bell collar"
+        },
+        "BLACK_BELL": {
+            "zero": "black bell collar",
+            "many": "black bell collars",
+            "one": "black bell collar"
+        },
+        "SPIKE_BELL": {
+            "zero": "spiked bell collar",
+            "many": "spiked bell collars",
+            "one": "spiked bell collar"
+        },
+        "WHITE_BELL": {
+            "zero": "white bell collar",
+            "many": "white bell collars",
+            "one": "white bell collar"
+        },
+        "PINK_BELL": {
+            "zero": "pink bell collar",
+            "many": "pink bell collars",
+            "one": "pink bell collar"
+        },
+        "PURPLE_BELL": {
+            "zero": "purple bell collar",
+            "many": "purple bell collars",
+            "one": "purple bell collar"
+        },
+        "MULTI_BELL": {
+            "zero": "colorful bell collar",
+            "many": "colorful bell collars",
+            "one": "colorful bell collar"
+        },
+        "INDIGO_BELL": {
+            "zero": "indigo bell collar",
+            "many": "indigo bell collars",
+            "one": "indigo bell collar"
+        },
+        "CRIMSON_BOW": {
+            "zero": "crimson bow collar",
+            "many": "crimson bow collars",
+            "one": "crimson bow collar"
+        },
+        "BLUE_BOW": {
+            "zero": "blue bow collar",
+            "many": "blue bow collars",
+            "one": "blue bow collar"
+        },
+        "YELLOW_BOW": {
+            "zero": "yellow bow collar",
+            "many": "yellow bow collars",
+            "one": "yellow bow collar"
+        },
+        "CYAN_BOW": {
+            "zero": "cyan bow collar",
+            "many": "cyan bow collars",
+            "one": "cyan bow collar"
+        },
+        "RED_BOW": {
+            "zero": "red bow collar",
+            "many": "red bow collars",
+            "one": "red bow collar"
+        },
+        "LIME_BOW": {
+            "zero": "lime bow collar",
+            "many": "lime bow collars",
+            "one": "lime bow collar"
+        },
+        "GREEN_BOW": {
+            "zero": "green bow collar",
+            "many": "green bow collars",
+            "one": "green bow collar"
+        },
+        "RAINBOW_BOW": {
+            "zero": "rainbow bow collar",
+            "many": "rainbow bow collars",
+            "one": "rainbow bow collar"
+        },
+        "BLACK_BOW": {
+            "zero": "black bow collar",
+            "many": "black bow collars",
+            "one": "black bow collar"
+        },
+        "SPIKE_BOW": {
+            "zero": "spiked bow collar",
+            "many": "spiked bow collars",
+            "one": "spiked bow collar"
+        },
+        "WHITE_BOW": {
+            "zero": "white bow collar",
+            "many": "white bow collars",
+            "one": "white bow collar"
+        },
+        "PINK_BOW": {
+            "zero": "pink bow collar",
+            "many": "pink bow collars",
+            "one": "pink bow collar"
+        },
+        "PURPLE_BOW": {
+            "zero": "purple bow collar",
+            "many": "purple bow collars",
+            "one": "purple bow collar"
+        },
+        "MULTI_BOW": {
+            "zero": "colorful bow collar",
+            "many": "colorful bow collars",
+            "one": "colorful bow collar"
+        },
+        "INDIGO_BOW": {
+            "zero": "indigo bow collar",
+            "many": "indigo bow collars",
+            "one": "indigo bow collar"
+        },
+        "CRIMSON_NYLON": {
+            "zero": "crimson nylon collar",
+            "many": "crimson nylon collars",
+            "one": "crimson nylon collar"
+        },
+        "BLUE_NYLON": {
+            "zero": "blue nylon collar",
+            "many": "blue nylon collars",
+            "one": "blue nylon collar"
+        },
+        "YELLOW_NYLON": {
+            "zero": "yellow nylon collar",
+            "many": "yellow nylon collars",
+            "one": "yellow nylon collar"
+        },
+        "CYAN_NYLON": {
+            "zero": "cyan nylon collar",
+            "many": "cyan nylon collars",
+            "one": "cyan nylon collar"
+        },
+        "RED_NYLON": {
+            "zero": "red nylon collar",
+            "many": "red nylon collars",
+            "one": "red nylon collar"
+        },
+        "LIME_NYLON": {
+            "zero": "lime nylon collar",
+            "many": "lime nylon collars",
+            "one": "lime nylon collar"
+        },
+        "GREEN_NYLON": {
+            "zero": "green nylon collar",
+            "many": "green nylon collars",
+            "one": "green nylon collar"
+        },
+        "RAINBOW_NYLON": {
+            "zero": "rainbow nylon collar",
+            "many": "rainbow nylon collars",
+            "one": "rainbow nylon collar"
+        },
+        "BLACK_NYLON": {
+            "zero": "black nylon collar",
+            "many": "black nylon collars",
+            "one": "black nylon collar"
+        },
+        "SPIKE_NYLON": {
+            "zero": "spiked nylon collar",
+            "many": "spiked nylon collars",
+            "one": "spiked nylon collar"
+        },
+        "WHITE_NYLON": {
+            "zero": "white nylon collar",
+            "many": "white nylon collars",
+            "one": "white nylon collar"
+        },
+        "PINK_NYLON": {
+            "zero": "pink nylon collar",
+            "many": "pink nylon collars",
+            "one": "pink nylon collar"
+        },
+        "PURPLE_NYLON": {
+            "zero": "purple nylon collar",
+            "many": "purple nylon collars",
+            "one": "purple nylon collar"
+        },
+        "MULTI_NYLON": {
             "zero": "colorful nylon collar",
             "many": "colorful nylon collars",
             "one": "colorful nylon collar"
         },
-        "NYLON_BELL": {
-            "zero": "belled nylon collar",
-            "many": "belled nylon collars",
-            "one": "belled nylon collar"
-        },
-        "NYLON_BELL_GRADIENT": {
-            "zero": "colorful belled nylon collar",
-            "many": "colorful belled nylon collars",
-            "one": "colorful belled nylon collar"
+        "INDIGO_NYLON": {
+            "zero": "indigo nylon collar",
+            "many": "indigo nylon collars",
+            "one": "indigo nylon collar"
         }
     }
 }
