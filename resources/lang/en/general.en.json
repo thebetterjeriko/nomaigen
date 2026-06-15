@@ -18,20 +18,20 @@
         "past_no_group": "past %{rank}",
         "past_group": "past %{group} %{rank}",
         "leader": {
-            "one": "leader",
-            "many": "leaders"
+            "one": "captain",
+            "many": "captains"
         },
         "deputy": {
-            "one": "deputy",
-            "many": "deputies"
+            "one": "lieutenant",
+            "many": "lieutenants"
         },
         "warrior": {
-            "one": "warrior",
-            "many": "warriors"
+            "one": "clanmate",
+            "many": "clanmates"
         },
         "medicine cat": {
-            "one": "medicine cat",
-            "many": "medicine cats"
+            "one": "medic",
+            "many": "medics"
         },
         "mediator": {
             "one": "mediator",
@@ -42,28 +42,28 @@
             "many": "apprentices"
         },
         "medicine cat apprentice": {
-            "one": "medicine cat apprentice",
-            "many": "medicine cat apprentices"
+            "one": "medic's apprentice",
+            "many": "medics' apprentices"
         },
         "mediator apprentice": {
             "one": "mediator apprentice",
             "many": "mediator apprentices"
         },
         "queen": {
-            "one": "queen",
-            "many": "queens"
+            "one": "parent",
+            "many": "parents"
         },
         "queen/pregnant": {
-            "one": "queen/pregnant cat",
-            "many": "queens/pregnant cats"
+            "one": "parent/pregnant nomai",
+            "many": "parents/pregnant nomai"
         },
         "newborn": {
             "one": "newborn",
             "many": "newborns"
         },
         "kitten": {
-            "one": "kitten",
-            "many": "kittens"
+            "one": "kid",
+            "many": "kids"
         },
         "kitten_profile": "young",
         "adolescent": "adolescent",
@@ -72,8 +72,8 @@
         "senior adult": "senior adult",
         "senior": "senior",
         "kit": {
-            "one": "kit",
-            "many": "kits"
+            "one": "kid",
+            "many": "kids"
         },
         "elder": {
             "one": "elder",
@@ -92,12 +92,12 @@
             "many": "kittypets"
         },
         "former Clancat": {
-            "one": "former Clancat",
-            "many": "former Clancats"
+            "one": "former Clan member",
+            "many": "former Clan members"
         },
         "clancat": {
-            "one": "Clancat",
-            "many": "Clancats"
+            "one": "Clan member",
+            "many": "Clan members"
         },
         "exiled": {
             "one": "exiled from",
@@ -105,12 +105,12 @@
         },
         "lost": "lost",
         "mate": {
-            "one": "mate",
-            "many": "mates"
+            "one": "partner",
+            "many": "partners"
         },
-        "she-cat": "she-cat",
-        "tom": "tom",
-        "cat": "cat",
+        "she-cat": "doe",
+        "tom": "buck",
+        "cat": "nomai",
         "female": "female",
         "male": "male",
         "trans female": "trans female",
@@ -118,8 +118,8 @@
         "nonbinary": "nonbinary",
         "is": "is",
         "are": "are",
-        "can_work": "This cat can work",
-        "cant_work": "This cat isn't able to work",
+        "can_work": "This nomai can work",
+        "cant_work": "This nomai isn't able to work",
         "cant_work_condition": "Can't work with this condition",
         "exp_label": "exp: %{exp}",
         "newleaf": "newleaf",
@@ -168,19 +168,19 @@
         "the_dark_forest": "The Dark Forest",
         "unknown_residence": "Unknown Residence",
         "your_clan": "Your Clan",
-        "cotc": "Cats Outside the Clan",
+        "cotc": "Nomai Outside the Clan",
         "empty": "empty",
         "none": "none",
         "name_search": "name search",
-        "has_a_mate": "has a mate",
-        "cats_mate": "%{name}'s mate",
-        "mate_none": "mate: none",
+        "has_a_mate": "has a partner",
+        "cats_mate": "%{name}'s partner",
+        "mate_none": "partner: none",
         "mate_living": "(living)",
         "mate_dead": "(dead)",
         "mate_away": "(away)",
         "mate_label": {
-            "one": "mate: %{mates}",
-            "many": "mates: %{mates}"
+            "one": "partner: %{mates}",
+            "many": "partners: %{mates}"
         },
         "mate_extra": {
             "one": "1 other",

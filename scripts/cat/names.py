@@ -238,19 +238,7 @@ class Name:
             named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/8'.
             named_after_biome = not random.getrandbits(3)  # 1/8
             # Pelt name only gets used if there's an associated suffix.
-            if named_after_pelt:
-                if (
-                    pelt in ("Tortie", "Calico")
-                    and tortie_pattern in self.names_dict["tortie_pelt_suffixes"]
-                ):
-                    self.suffix = random.choice(
-                        self.names_dict["tortie_pelt_suffixes"][tortie_pattern]
-                    )
-                elif pelt in self.names_dict["pelt_suffixes"]:
-                    self.suffix = random.choice(self.names_dict["pelt_suffixes"][pelt])
-                else:
-                    self.suffix = random.choice(self.names_dict["normal_suffixes"])
-            elif named_after_biome:
+            if named_after_biome:
                 if biome in self.names_dict["biome_suffixes"]:
                     self.suffix = random.choice(
                         self.names_dict["biome_suffixes"][biome]
@@ -268,9 +256,9 @@ class Name:
         :return: Cat's name string
         """
         if rank in self.names_dict["special_suffixes"] and not self.specsuffix_hidden:
-            return self.prefix + self.names_dict["special_suffixes"][rank]
+            return self.names_dict["special_suffixes"][rank] + " " + self.prefix
 
-        return self.prefix + self.suffix
+        return self.suffix + " " + self.prefix
 
     def __repr__(self):
         # Handles predefined suffixes (such as newborns being kit),
@@ -290,9 +278,9 @@ class Name:
             }
             if self.cat.age in age_to_rank:
                 rank = age_to_rank[self.cat.age]
-                return self.prefix + self.names_dict["special_suffixes"][rank]
+                return self.names_dict["special_suffixes"][rank] + " " + self.prefix
             else:
-                return self.prefix + self.suffix
+                return self.suffix + " " + self.prefix
 
         if self.cat.status.is_former_clancat:
             old_rank = self.cat.status.find_prior_clan_rank()
@@ -301,18 +289,18 @@ class Name:
                 old_rank in self.names_dict["special_suffixes"]
                 and not self.specsuffix_hidden
             ):
-                return self.prefix + self.names_dict["special_suffixes"][old_rank]
+                return self.names_dict["special_suffixes"][old_rank] + " " + self.prefix
 
         if (
             self.cat.status.rank in self.names_dict["special_suffixes"]
             and not self.specsuffix_hidden
         ):
             return (
-                self.prefix + self.names_dict["special_suffixes"][self.cat.status.rank]
+                self.names_dict["special_suffixes"][self.cat.status.rank] + " " + self.prefix
             )
         if constants.CONFIG["fun"]["april_fools"]:
-            return f"{self.prefix}egg"
-        return self.prefix + self.suffix
+            return f"Gn{self.prefix}"
+        return self.suffix + " " + self.prefix
 
 
 names = Name()

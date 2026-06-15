@@ -748,6 +748,18 @@ class ChooseCatsScreen(MakeClanScreenBase):
                 + " --> "
                 + selected.name.get_specsuffix_name(CatRank.LEADER)
             )
+        elif not self.clan_info.deputy:
+            self.elements["cat_name"].set_text(
+                str(selected.name)
+                + " --> "
+                + selected.name.get_specsuffix_name(CatRank.DEPUTY)
+            )
+        elif not self.clan_info.medicine_cat:
+            self.elements["cat_name"].set_text(
+                str(selected.name)
+                + " --> "
+                + selected.name.get_specsuffix_name(CatRank.MEDICINE_CAT)
+            )
         else:
             self.elements["cat_name"].set_text(str(selected.name))
 
