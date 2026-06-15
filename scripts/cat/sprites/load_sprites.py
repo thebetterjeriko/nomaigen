@@ -252,7 +252,7 @@ class Sprites:
         elif width / self.sheet_layout[0] == height / self.sheet_layout[1]:
             self.size = width / self.sheet_layout[0]
         else:
-            self.size = 50  # default, what base clangen uses
+            self.size = 200  # default, what base clangen uses
             print(
                 f"lineart.png is not {self.sheet_layout}, falling back to {self.size}"
             )

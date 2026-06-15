@@ -3,88 +3,88 @@
     "palette_map": false,
     "sprite_list": [
         [
-            "CRIMSON_COLLAR",
-            "BLUE_COLLAR",
-            "YELLOW_COLLAR",
-            "CYAN_COLLAR",
-            "RED_COLLAR",
-            "LIME_COLLAR"
+            "GOLD_SUN_CLASSIC",
+            "GOLD_INTERLOPER_CLASSIC",
+            "GOLD_EMBER_CLASSIC",
+            "GOLD_ASH_CLASSIC"
         ],
         [
-            "GREEN_COLLAR",
-            "RAINBOW_COLLAR",
-            "BLACK_COLLAR",
-            "SPIKE_COLLAR",
-            "WHITE_COLLAR"
+            "GOLD_HOLLOW_CLASSIC",
+            "GOLD_HEARTH_CLASSIC",
+            "GOLD_DEEP_CLASSIC",
+            "GOLD_STRANGER_CLASSIC"
         ],
         [
-            "PINK_COLLAR",
-            "PURPLE_COLLAR",
-            "MULTI_COLLAR",
-            "INDIGO_COLLAR"
+            "GOLD_BRAMBLE_CLASSIC",
+            "GOLD_INDIGO_CLASSIC",
+            "GOLD_PINK_CLASSIC",
+            "GOLD_CRIMSON_CLASSIC"
         ],
         [
-            "CRIMSON_BELL",
-            "BLUE_BELL",
-            "YELLOW_BELL",
-            "CYAN_BELL",
-            "RED_BELL",
-            "LIME_BELL"
+            "GOLD_WHITE_CLASSIC",
+            "GOLD_RAINBOW_CLASSIC",
+            "GOLD_YELLOW_CLASSIC",
+            "GOLD_PURPLE_CLASSIC"
         ],
         [
-            "GREEN_BELL",
-            "RAINBOW_BELL",
-            "BLACK_BELL",
-            "SPIKE_BELL",
-            "WHITE_BELL"
+            "GOLD_GREEN_CLASSIC",
+            "GOLD_SAGE_CLASSIC"
+        ],
+      [
+            "SILVER_SUN_CLASSIC",
+            "SILVER_INTERLOPER_CLASSIC",
+            "SILVER_EMBER_CLASSIC",
+            "SILVER_ASH_CLASSIC"
         ],
         [
-            "PINK_BELL",
-            "PURPLE_BELL",
-            "MULTI_BELL",
-            "INDIGO_BELL"
+            "SILVER_HOLLOW_CLASSIC",
+            "SILVER_HEARTH_CLASSIC",
+            "SILVER_DEEP_CLASSIC",
+            "SILVER_STRANGER_CLASSIC"
         ],
         [
-            "CRIMSON_BOW",
-            "BLUE_BOW",
-            "YELLOW_BOW",
-            "CYAN_BOW",
-            "RED_BOW",
-            "LIME_BOW"
+            "SILVER_BRAMBLE_CLASSIC",
+            "SILVER_INDIGO_CLASSIC",
+            "SILVER_PINK_CLASSIC",
+            "SILVER_CRIMSON_CLASSIC"
         ],
         [
-            "GREEN_BOW",
-            "RAINBOW_BOW",
-            "BLACK_BOW",
-            "SPIKE_BOW",
-            "WHITE_BOW"
+            "SILVER_WHITE_CLASSIC",
+            "SILVER_RAINBOW_CLASSIC",
+            "SILVER_YELLOW_CLASSIC",
+            "SILVER_PURPLE_CLASSIC"
         ],
         [
-            "PINK_BOW",
-            "PURPLE_BOW",
-            "MULTI_BOW",
-            "INDIGO_BOW"
+            "SILVER_GREEN_CLASSIC",
+            "SILVER_SAGE_CLASSIC"
+        ],
+      [
+            "BRONZE_SUN_CLASSIC",
+            "BRONZE_INTERLOPER_CLASSIC",
+            "BRONZE_EMBER_CLASSIC",
+            "BRONZE_ASH_CLASSIC"
         ],
         [
-            "CRIMSON_NYLON",
-            "BLUE_NYLON",
-            "YELLOW_NYLON",
-            "CYAN_NYLON",
-            "RED_NYLON",
-            "LIME_NYLON"
+            "BRONZE_HOLLOW_CLASSIC",
+            "BRONZE_HEARTH_CLASSIC",
+            "BRONZE_DEEP_CLASSIC",
+            "BRONZE_STRANGER_CLASSIC"
         ],
         [
-            "GREEN_NYLON",
-            "RAINBOW_NYLON",
-            "BLACK_NYLON",
-            "SPIKE_NYLON",
-            "WHITE_NYLON"
+            "BRONZE_BRAMBLE_CLASSIC",
+            "BRONZE_INDIGO_CLASSIC",
+            "BRONZE_PINK_CLASSIC",
+            "BRONZE_CRIMSON_CLASSIC"
         ],
         [
-            "PINK_NYLON",
-            "PURPLE_NYLON",
-            "MULTI_NYLON",
-            "INDIGO_NYLON"
+            "BRONZE_WHITE_CLASSIC",
+            "BRONZE_RAINBOW_CLASSIC",
+            "BRONZE_YELLOW_CLASSIC",
+            "BRONZE_PURPLE_CLASSIC"
+        ],
+        [
+            "BRONZE_GREEN_CLASSIC",
+            "BRONZE_SAGE_CLASSIC"
         ]
     ]
 }

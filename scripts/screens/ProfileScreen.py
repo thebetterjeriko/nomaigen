@@ -842,14 +842,8 @@ class ProfileScreen(Screens):
         output += "\n"
         output += i18n.t(
             "screens.profile.clothing_label",
-            clothing1=i18n.t(f"cat.accessories.{the_cat.pelt.clothing1}", count=0),
+            clothing1=i18n.t(f"cat.accessories.{the_cat.pelt.clothing2}", count=0),
         )
-        if the_cat.pelt.clothing2:
-            output += " "
-            output += i18n.t(
-                "screens.profile.clothing2_label",
-                clothing2=i18n.t(f"cat.accessories.{the_cat.pelt.clothing2}", count=0),
-            )
 
         # PARENTS
         all_parents = [Cat.fetch_cat(i) for i in the_cat.get_parents()]

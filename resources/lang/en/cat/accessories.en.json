@@ -294,305 +294,275 @@
             "many": "road runner feathers",
             "one": "road runner feather"
         },
-        "CRIMSON_COLLAR": {
-            "zero": "crimson collar",
-            "many": "crimson collars",
-            "one": "crimson collar"
+        "GOLD_SUN_CLASSIC": {
+            "zero": "classic sun & gold",
+            "many": "classic sun & gold",
+            "one": "classic sun & gold"
         },
-        "BLUE_COLLAR": {
-            "zero": "blue collar",
-            "many": "blue collars",
-            "one": "blue collar"
+        "GOLD_INTERLOPER_CLASSIC": {
+            "zero": "classic interloper & gold",
+            "many": "classic interloper & gold",
+            "one": "classic interloper & gold"
         },
-        "YELLOW_COLLAR": {
-            "zero": "yellow collar",
-            "many": "yellow collars",
-            "one": "yellow collar"
+        "GOLD_EMBER_CLASSIC": {
+            "zero": "classic ember & gold",
+            "many": "classic ember & gold",
+            "one": "classic ember & gold"
         },
-        "CYAN_COLLAR": {
-            "zero": "cyan collar",
-            "many": "cyan collars",
-            "one": "cyan collar"
+        "GOLD_ASH_CLASSIC": {
+            "zero": "classic ash & gold",
+            "many": "classic ash & gold",
+            "one": "classic ash & gold"
         },
-        "RED_COLLAR": {
-            "zero": "red collar",
-            "many": "red collars",
-            "one": "red collar"
+        "GOLD_HOLLOW_CLASSIC": {
+            "zero": "classic hollow & gold",
+            "many": "classic hollow & gold",
+            "one": "classic hollow & gold"
         },
-        "LIME_COLLAR": {
-            "zero": "lime collar",
-            "many": "lime collars",
-            "one": "lime collar"
+        "GOLD_HEARTH_CLASSIC": {
+            "zero": "classic hearth & gold",
+            "many": "classic hearth & gold",
+            "one": "classic hearth & gold"
         },
-        "GREEN_COLLAR": {
-            "zero": "green collar",
-            "many": "green collars",
-            "one": "green collar"
+        "GOLD_DEEP_CLASSIC": {
+            "zero": "classic deep & gold",
+            "many": "classic deep & gold",
+            "one": "classic deep & gold"
         },
-        "RAINBOW_COLLAR": {
-            "zero": "rainbow collar",
-            "many": "rainbow collars",
-            "one": "rainbow collar"
+        "GOLD_STRANGER_CLASSIC": {
+            "zero": "classic stranger & gold",
+            "many": "classic stranger & gold",
+            "one": "classic stranger & gold"
         },
-        "BLACK_COLLAR": {
-            "zero": "black collar",
-            "many": "black collars",
-            "one": "black collar"
+        "GOLD_BRAMBLE_CLASSIC": {
+            "zero": "classic bramble & gold",
+            "many": "classic bramble & gold",
+            "one": "classic bramble & gold"
         },
-        "SPIKE_COLLAR": {
-            "zero": "spike collar",
-            "many": "spike collars",
-            "one": "spike collar"
+        "GOLD_INDIGO_CLASSIC": {
+            "zero": "classic indigo & gold",
+            "many": "classic indigo & gold",
+            "one": "classic indigo & gold"
         },
-        "WHITE_COLLAR": {
-            "zero": "white collar",
-            "many": "white collars",
-            "one": "white collar"
+        "GOLD_PINK_CLASSIC": {
+            "zero": "classic pink & gold",
+            "many": "classic pink & gold",
+            "one": "classic pink & gold"
         },
-        "PINK_COLLAR": {
-            "zero": "pink collar",
-            "many": "pink collars",
-            "one": "pink collar"
+        "GOLD_CRIMSON_CLASSIC": {
+            "zero": "classic crimson & gold",
+            "many": "classic crimson & gold",
+            "one": "classic crimson & gold"
         },
-        "PURPLE_COLLAR": {
-            "zero": "purple collar",
-            "many": "purple collars",
-            "one": "purple collar"
+        "GOLD_WHITE_CLASSIC": {
+            "zero": "classic white & gold",
+            "many": "classic white & gold",
+            "one": "classic white & gold"
         },
-        "MULTI_COLLAR": {
-            "zero": "colorful collar",
-            "many": "colorful collars",
-            "one": "colorful collar"
+        "GOLD_RAINBOW_CLASSIC": {
+            "zero": "classic rainbow & gold",
+            "many": "classic rainbow & gold",
+            "one": "classic rainbow & gold"
         },
-        "INDIGO_COLLAR": {
-            "zero": "indigo collar",
-            "many": "indigo collars",
-            "one": "indigo collar"
+        "GOLD_YELLOW_CLASSIC": {
+            "zero": "classic yellow & gold",
+            "many": "classic yellow & gold",
+            "one": "classic yellow & gold"
         },
-        "CRIMSON_BELL": {
-            "zero": "crimson bell collar",
-            "many": "crimson bell collars",
-            "one": "crimson bell collar"
+        "GOLD_PURPLE_CLASSIC": {
+            "zero": "classic purple & gold",
+            "many": "classic purple & gold",
+            "one": "classic purple & gold"
         },
-        "BLUE_BELL": {
-            "zero": "blue bell collar",
-            "many": "blue bell collars",
-            "one": "blue bell collar"
+        "GOLD_GREEN_CLASSIC": {
+            "zero": "classic green & gold",
+            "many": "classic green & gold",
+            "one": "classic green & gold"
         },
-        "YELLOW_BELL": {
-            "zero": "yellow bell collar",
-            "many": "yellow bell collars",
-            "one": "yellow bell collar"
+        "GOLD_SAGE_CLASSIC": {
+            "zero": "classic sage & gold",
+            "many": "classic sage & gold",
+            "one": "classic sage & gold"
         },
-        "CYAN_BELL": {
-            "zero": "cyan bell collar",
-            "many": "cyan bell collars",
-            "one": "cyan bell collar"
+      "SILVER_SUN_CLASSIC": {
+            "zero": "classic sun & silver",
+            "many": "classic sun & silver",
+            "one": "classic sun & silver"
         },
-        "RED_BELL": {
-            "zero": "red bell collar",
-            "many": "red bell collars",
-            "one": "red bell collar"
+        "SILVER_INTERLOPER_CLASSIC": {
+            "zero": "classic interloper & silver",
+            "many": "classic interloper & silver",
+            "one": "classic interloper & silver"
         },
-        "LIME_BELL": {
-            "zero": "lime bell collar",
-            "many": "lime bell collars",
-            "one": "lime bell collar"
+        "SILVER_EMBER_CLASSIC": {
+            "zero": "classic ember & silver",
+            "many": "classic ember & silver",
+            "one": "classic ember & silver"
         },
-        "GREEN_BELL": {
-            "zero": "green bell collar",
-            "many": "green bell collars",
-            "one": "green bell collar"
+        "SILVER_ASH_CLASSIC": {
+            "zero": "classic ash & silver",
+            "many": "classic ash & silver",
+            "one": "classic ash & silver"
         },
-        "RAINBOW_BELL": {
-            "zero": "rainbow bell collar",
-            "many": "rainbow bell collars",
-            "one": "rainbow bell collar"
+        "SILVER_HOLLOW_CLASSIC": {
+            "zero": "classic hollow & silver",
+            "many": "classic hollow & silver",
+            "one": "classic hollow & silver"
         },
-        "BLACK_BELL": {
-            "zero": "black bell collar",
-            "many": "black bell collars",
-            "one": "black bell collar"
+        "SILVER_HEARTH_CLASSIC": {
+            "zero": "classic hearth & silver",
+            "many": "classic hearth & silver",
+            "one": "classic hearth & silver"
         },
-        "SPIKE_BELL": {
-            "zero": "spiked bell collar",
-            "many": "spiked bell collars",
-            "one": "spiked bell collar"
+        "SILVER_DEEP_CLASSIC": {
+            "zero": "classic deep & silver",
+            "many": "classic deep & silver",
+            "one": "classic deep & silver"
         },
-        "WHITE_BELL": {
-            "zero": "white bell collar",
-            "many": "white bell collars",
-            "one": "white bell collar"
+        "SILVER_STRANGER_CLASSIC": {
+            "zero": "classic stranger & silver",
+            "many": "classic stranger & silver",
+            "one": "classic stranger & silver"
         },
-        "PINK_BELL": {
-            "zero": "pink bell collar",
-            "many": "pink bell collars",
-            "one": "pink bell collar"
+        "SILVER_BRAMBLE_CLASSIC": {
+            "zero": "classic bramble & silver",
+            "many": "classic bramble & silver",
+            "one": "classic bramble & silver"
         },
-        "PURPLE_BELL": {
-            "zero": "purple bell collar",
-            "many": "purple bell collars",
-            "one": "purple bell collar"
+        "SILVER_INDIGO_CLASSIC": {
+            "zero": "classic indigo & silver",
+            "many": "classic indigo & silver",
+            "one": "classic indigo & silver"
         },
-        "MULTI_BELL": {
-            "zero": "colorful bell collar",
-            "many": "colorful bell collars",
-            "one": "colorful bell collar"
+        "SILVER_PINK_CLASSIC": {
+            "zero": "classic pink & silver",
+            "many": "classic pink & silver",
+            "one": "classic pink & silver"
         },
-        "INDIGO_BELL": {
-            "zero": "indigo bell collar",
-            "many": "indigo bell collars",
-            "one": "indigo bell collar"
+        "SILVER_CRIMSON_CLASSIC": {
+            "zero": "classic crimson & silver",
+            "many": "classic crimson & silver",
+            "one": "classic crimson & silver"
         },
-        "CRIMSON_BOW": {
-            "zero": "crimson bow collar",
-            "many": "crimson bow collars",
-            "one": "crimson bow collar"
+        "SILVER_WHITE_CLASSIC": {
+            "zero": "classic white & silver",
+            "many": "classic white & silver",
+            "one": "classic white & silver"
         },
-        "BLUE_BOW": {
-            "zero": "blue bow collar",
-            "many": "blue bow collars",
-            "one": "blue bow collar"
+        "SILVER_RAINBOW_CLASSIC": {
+            "zero": "classic rainbow & silver",
+            "many": "classic rainbow & silver",
+            "one": "classic rainbow & silver"
         },
-        "YELLOW_BOW": {
-            "zero": "yellow bow collar",
-            "many": "yellow bow collars",
-            "one": "yellow bow collar"
+        "SILVER_YELLOW_CLASSIC": {
+            "zero": "classic yellow & silver",
+            "many": "classic yellow & silver",
+            "one": "classic yellow & silver"
         },
-        "CYAN_BOW": {
-            "zero": "cyan bow collar",
-            "many": "cyan bow collars",
-            "one": "cyan bow collar"
+        "SILVER_PURPLE_CLASSIC": {
+            "zero": "classic purple & silver",
+            "many": "classic purple & silver",
+            "one": "classic purple & silver"
         },
-        "RED_BOW": {
-            "zero": "red bow collar",
-            "many": "red bow collars",
-            "one": "red bow collar"
+        "SILVER_GREEN_CLASSIC": {
+            "zero": "classic green & silver",
+            "many": "classic green & silver",
+            "one": "classic green & silver"
         },
-        "LIME_BOW": {
-            "zero": "lime bow collar",
-            "many": "lime bow collars",
-            "one": "lime bow collar"
+        "SILVER_SAGE_CLASSIC": {
+            "zero": "classic sage & silver",
+            "many": "classic sage & silver",
+            "one": "classic sage & silver"
         },
-        "GREEN_BOW": {
-            "zero": "green bow collar",
-            "many": "green bow collars",
-            "one": "green bow collar"
+      "BRONZE_SUN_CLASSIC": {
+            "zero": "classic sun & bronze",
+            "many": "classic sun & bronze",
+            "one": "classic sun & bronze"
         },
-        "RAINBOW_BOW": {
-            "zero": "rainbow bow collar",
-            "many": "rainbow bow collars",
-            "one": "rainbow bow collar"
+        "BRONZE_INTERLOPER_CLASSIC": {
+            "zero": "classic interloper & bronze",
+            "many": "classic interloper & bronze",
+            "one": "classic interloper & bronze"
         },
-        "BLACK_BOW": {
-            "zero": "black bow collar",
-            "many": "black bow collars",
-            "one": "black bow collar"
+        "BRONZE_EMBER_CLASSIC": {
+            "zero": "classic ember & bronze",
+            "many": "classic ember & bronze",
+            "one": "classic ember & bronze"
         },
-        "SPIKE_BOW": {
-            "zero": "spiked bow collar",
-            "many": "spiked bow collars",
-            "one": "spiked bow collar"
+        "BRONZE_ASH_CLASSIC": {
+            "zero": "classic ash & bronze",
+            "many": "classic ash & bronze",
+            "one": "classic ash & bronze"
         },
-        "WHITE_BOW": {
-            "zero": "white bow collar",
-            "many": "white bow collars",
-            "one": "white bow collar"
+        "BRONZE_HOLLOW_CLASSIC": {
+            "zero": "classic hollow & bronze",
+            "many": "classic hollow & bronze",
+            "one": "classic hollow & bronze"
         },
-        "PINK_BOW": {
-            "zero": "pink bow collar",
-            "many": "pink bow collars",
-            "one": "pink bow collar"
+        "BRONZE_HEARTH_CLASSIC": {
+            "zero": "classic hearth & bronze",
+            "many": "classic hearth & bronze",
+            "one": "classic hearth & bronze"
         },
-        "PURPLE_BOW": {
-            "zero": "purple bow collar",
-            "many": "purple bow collars",
-            "one": "purple bow collar"
+        "BRONZE_DEEP_CLASSIC": {
+            "zero": "classic deep & bronze",
+            "many": "classic deep & bronze",
+            "one": "classic deep & bronze"
         },
-        "MULTI_BOW": {
-            "zero": "colorful bow collar",
-            "many": "colorful bow collars",
-            "one": "colorful bow collar"
+        "BRONZE_STRANGER_CLASSIC": {
+            "zero": "classic stranger & bronze",
+            "many": "classic stranger & bronze",
+            "one": "classic stranger & bronze"
         },
-        "INDIGO_BOW": {
-            "zero": "indigo bow collar",
-            "many": "indigo bow collars",
-            "one": "indigo bow collar"
+        "BRONZE_BRAMBLE_CLASSIC": {
+            "zero": "classic bramble & bronze",
+            "many": "classic bramble & bronze",
+            "one": "classic bramble & bronze"
         },
-        "CRIMSON_NYLON": {
-            "zero": "crimson nylon collar",
-            "many": "crimson nylon collars",
-            "one": "crimson nylon collar"
+        "BRONZE_INDIGO_CLASSIC": {
+            "zero": "classic indigo & bronze",
+            "many": "classic indigo & bronze",
+            "one": "classic indigo & bronze"
         },
-        "BLUE_NYLON": {
-            "zero": "blue nylon collar",
-            "many": "blue nylon collars",
-            "one": "blue nylon collar"
+        "BRONZE_PINK_CLASSIC": {
+            "zero": "classic pink & bronze",
+            "many": "classic pink & bronze",
+            "one": "classic pink & bronze"
         },
-        "YELLOW_NYLON": {
-            "zero": "yellow nylon collar",
-            "many": "yellow nylon collars",
-            "one": "yellow nylon collar"
+        "BRONZE_CRIMSON_CLASSIC": {
+            "zero": "classic crimson & bronze",
+            "many": "classic crimson & bronze",
+            "one": "classic crimson & bronze"
         },
-        "CYAN_NYLON": {
-            "zero": "cyan nylon collar",
-            "many": "cyan nylon collars",
-            "one": "cyan nylon collar"
+        "BRONZE_WHITE_CLASSIC": {
+            "zero": "classic white & bronze",
+            "many": "classic white & bronze",
+            "one": "classic white & bronze"
         },
-        "RED_NYLON": {
-            "zero": "red nylon collar",
-            "many": "red nylon collars",
-            "one": "red nylon collar"
+        "BRONZE_RAINBOW_CLASSIC": {
+            "zero": "classic rainbow & bronze",
+            "many": "classic rainbow & bronze",
+            "one": "classic rainbow & bronze"
         },
-        "LIME_NYLON": {
-            "zero": "lime nylon collar",
-            "many": "lime nylon collars",
-            "one": "lime nylon collar"
+        "BRONZE_YELLOW_CLASSIC": {
+            "zero": "classic yellow & bronze",
+            "many": "classic yellow & bronze",
+            "one": "classic yellow & bronze"
         },
-        "GREEN_NYLON": {
-            "zero": "green nylon collar",
-            "many": "green nylon collars",
-            "one": "green nylon collar"
+        "BRONZE_PURPLE_CLASSIC": {
+            "zero": "classic purple & bronze",
+            "many": "classic purple & bronze",
+            "one": "classic purple & bronze"
         },
-        "RAINBOW_NYLON": {
-            "zero": "rainbow nylon collar",
-            "many": "rainbow nylon collars",
-            "one": "rainbow nylon collar"
+        "BRONZE_GREEN_CLASSIC": {
+            "zero": "classic green & bronze",
+            "many": "classic green & bronze",
+            "one": "classic green & bronze"
         },
-        "BLACK_NYLON": {
-            "zero": "black nylon collar",
-            "many": "black nylon collars",
-            "one": "black nylon collar"
-        },
-        "SPIKE_NYLON": {
-            "zero": "spiked nylon collar",
-            "many": "spiked nylon collars",
-            "one": "spiked nylon collar"
-        },
-        "WHITE_NYLON": {
-            "zero": "white nylon collar",
-            "many": "white nylon collars",
-            "one": "white nylon collar"
-        },
-        "PINK_NYLON": {
-            "zero": "pink nylon collar",
-            "many": "pink nylon collars",
-            "one": "pink nylon collar"
-        },
-        "PURPLE_NYLON": {
-            "zero": "purple nylon collar",
-            "many": "purple nylon collars",
-            "one": "purple nylon collar"
-        },
-        "MULTI_NYLON": {
-            "zero": "colorful nylon collar",
-            "many": "colorful nylon collars",
-            "one": "colorful nylon collar"
-        },
-        "INDIGO_NYLON": {
-            "zero": "indigo nylon collar",
-            "many": "indigo nylon collars",
-            "one": "indigo nylon collar"
+        "BRONZE_SAGE_CLASSIC": {
+            "zero": "classic sage & bronze",
+            "many": "classic sage & bronze",
+            "one": "classic sage & bronze"
         }
     }
 }

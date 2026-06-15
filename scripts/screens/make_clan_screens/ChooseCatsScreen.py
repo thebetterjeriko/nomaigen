@@ -724,9 +724,9 @@ class ChooseCatsScreen(MakeClanScreenBase):
             self.elements["cat" + str(i)] = self.elements[
                 "cat" + str(i)
             ] = UISpriteButton(
-                ui_scale(pygame.Rect((270, 200), (150, 150))),
+                ui_scale(pygame.Rect((270, 200), (200, 200))),
                 pygame.transform.scale(
-                    possible_cats[i].sprite, ui_scale_dimensions((150, 150))
+                    possible_cats[i].sprite, ui_scale_dimensions((200, 200))
                 ),
                 cat_object=possible_cats[i],
             )
